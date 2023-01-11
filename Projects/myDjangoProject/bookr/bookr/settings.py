@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qk4@%_t$a)2ometdhli9@!ps(-hex%&!uktcb0(0epo_q63@z#'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -73,7 +73,11 @@ WSGI_APPLICATION = 'bookr.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
+"""
+'ENGINE' - Represents which database engine is being used; in this case, sqlite3
+'NAME'   - Defines the name of the database; Since the database is created as a file, NAME
+            can have the full path of the directory where the file needs to be created.
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
