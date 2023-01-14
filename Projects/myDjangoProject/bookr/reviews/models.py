@@ -17,6 +17,9 @@ class Publisher(models.Model):
         help_text="The Publisher's email address."
     )
 
+    def __str__(self):
+        return self.name
+
 class Book(models.Model):
     """Contains the information about the Book itself
     - Title: CharField, the title of the book
@@ -44,6 +47,9 @@ class Book(models.Model):
         'Contributor',
         through="BookContributor"
     )
+
+    def __str__(self):
+        return self.title
 class Contributor(models.Model):
     """Holds information about the contributor, that is, the author, co-author, editor
     - First_Names: CharField, The contributor's first name or names
@@ -61,6 +67,9 @@ class Contributor(models.Model):
     email = models.EmailField(
         help_text="The contact email for the contributor"
     )
+
+    def __str__(self):
+        return self.first_names
 
 class BookContributor(models.Model):
     """One Book can have many contributors. One contributor, can write many books. Many-to-Many relationship.
