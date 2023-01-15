@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="17fe43c3a0c9f9a14754d405d86a22b9403d81f2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JBjkPy9kqgZ2JTMkGeD0wLkOvq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.Django Dev Server">
+    <configuration name="Django Dev Server" type="PythonConfigurationType" factoryName="Python">
+      <module name="myDjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Valles\Desktop\University\Python\Projects\myDjangoProject\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (myDjangoProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookr" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookr/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myDjangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookr/bookr" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookr/bookr/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.settings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Valles\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="" />
+      <created>1671558513300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671558513300</updated>
+      <workItem from="1671558514428" duration="740000" />
+      <workItem from="1672072510177" duration="7443000" />
+      <workItem from="1673382285489" duration="552000" />
+      <workItem from="1673382857214" duration="46000" />
+      <workItem from="1673383951880" duration="2593000" />
+      <workItem from="1673386590449" duration="96000" />
+      <workItem from="1673386703936" duration="159000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding project files">
+      <created>1673385302919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673385302919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added a test comment">
+      <created>1673385530129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673385530129</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;Adding project files&quot;&#10;&#10;This reverts commit d8298066">
+      <created>1673386251010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673386251010</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding project files">
+      <created>1673386812261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673386812261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Configuring .gitignore">
+      <created>1673399916873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673399916873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created a small database consisting of fields 'title', 'publisher', 'author'">
+      <created>1673401045621</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673401045621</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added a file to .gitignore">
+      <created>1673448529999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673448529999</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Created a model for publisher with fields name, website, email">
+      <created>1673662714449</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673662714449</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modified .gitignore to ignore all .txt files with '*.txt'">
+      <created>1673664438217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673664438217</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created models for Object Relational Mapper (ORM)">
+      <created>1673668137853</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673668137853</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Wrote documentation for each field in the Python models">
+      <created>1673729234403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673729234403</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added __str__ class methods to the models">
+      <created>1673730643885</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673730643885</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated ERD">
+      <created>1673730744836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673730744836</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Migrated the models into the sqlite database">
+      <created>1673801041216</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673801041216</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Misc updates">
+      <created>1673801084079</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673801084079</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Performed the migration for the reviews app">
+      <created>1673803986789</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673803986789</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Performed the migration for the reviews app">
+      <created>1673804037060</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673804037060</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated the models Book table to contain the publication_date field">
+      <created>1673804439717</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673804439717</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated gitignore">
+      <created>1673804512574</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673804512574</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a test comment" />
+    <MESSAGE value="Revert &quot;Adding project files&quot;&#10;&#10;This reverts commit d8298066" />
+    <MESSAGE value="Adding project files" />
+    <MESSAGE value="Configuring .gitignore" />
+    <MESSAGE value="Created a small database consisting of fields 'title', 'publisher', 'author'" />
+    <MESSAGE value="added a file to .gitignore" />
+    <MESSAGE value="Created a model for publisher with fields name, website, email" />
+    <MESSAGE value="Modified .gitignore to ignore all .txt files with '*.txt'" />
+    <MESSAGE value="Created models for Object Relational Mapper (ORM)" />
+    <MESSAGE value="Wrote documentation for each field in the Python models" />
+    <MESSAGE value="Added __str__ class methods to the models" />
+    <MESSAGE value="Updated ERD" />
+    <MESSAGE value="Migrated the models into the sqlite database" />
+    <MESSAGE value="Misc updates" />
+    <MESSAGE value="Performed the migration for the reviews app" />
+    <MESSAGE value="Updated the models Book table to contain the publication_date field" />
+    <MESSAGE value="updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore" />
+  </component>
+</project>
