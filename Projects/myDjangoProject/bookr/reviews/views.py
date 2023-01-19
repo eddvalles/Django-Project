@@ -1,4 +1,6 @@
+from django.http import HttpResponse
 from django.shortcuts import render
+from .models import Book
 
 
 def index(request):
@@ -8,3 +10,8 @@ def book_search(request):
     search_text = request.GET.get("search", "")
     return render(request, "Search-results.html",
                   {"search_text": search_text})
+
+def welcome_view(request):
+    message = "<html><h1>Welcome to Bookr!</h1> " + f"<p>{Book.objects.count()} books and counting!</p></html>"
+
+    return HttpResponse(message)
