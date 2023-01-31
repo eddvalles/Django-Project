@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Created 3 users">
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Defined classes for the Book and Contributor models for more detailed columns in Admin interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookr/reviews/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookr/reviews/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/models.py" afterDir="false" />
@@ -48,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/Valles/Desktop/University/Python/Projects/myDjangoProject/bookr",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -362,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675124868735</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="slight modification to the Book class models __str__ method">
+      <created>1675127487054</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1675127487054</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Defined classes for the Book and Contributor models for more detailed columns in Admin interface">
+      <created>1675127522960</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675127522960</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,8 +426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding project files" />
-    <MESSAGE value="Configuring .gitignore" />
     <MESSAGE value="Created a small database consisting of fields 'title', 'publisher', 'author'" />
     <MESSAGE value="added a file to .gitignore" />
     <MESSAGE value="Created a model for publisher with fields name, website, email" />
@@ -437,6 +449,8 @@
     <MESSAGE value="Created a base.html document with Bootstrap and an html page for the /books url" />
     <MESSAGE value="Registered the Reviews app models" />
     <MESSAGE value="Created 3 users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 3 users" />
+    <MESSAGE value="slight modification to the Book class models __str__ method" />
+    <MESSAGE value="Defined classes for the Book and Contributor models for more detailed columns in Admin interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined classes for the Book and Contributor models for more detailed columns in Admin interface" />
   </component>
 </project>
