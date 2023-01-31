@@ -1,3 +1,7 @@
+"""
+If you want to change how the object is displayed in the Admin interface, you must modify the __str__ method of the
+model class
+"""
 from django.db import models
 from django.contrib import auth
 class Publisher(models.Model):
@@ -52,7 +56,7 @@ class Book(models.Model):
     )
 
     def __str__(self):
-        return self.title
+        return f"{self.title} ({self.isbn})"
 class Contributor(models.Model):
     """Holds information about the contributor, that is, the author, co-author, editor
     - First_Names: CharField, The contributor's first name or names
