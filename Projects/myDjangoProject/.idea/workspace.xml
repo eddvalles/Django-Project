@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Added a logo to the base navigation bar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/bookr/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/bookr/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/search-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/search-results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/views.py" afterDir="false" />
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Created a separate css page for styling">
       <change beforePath="$PROJECT_DIR$/bookr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -387,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675389952709</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Created a separate css page for styling">
+      <created>1675391296821</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1675391296821</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a file to .gitignore" />
     <MESSAGE value="Created a model for publisher with fields name, website, email" />
     <MESSAGE value="Modified .gitignore to ignore all .txt files with '*.txt'" />
     <MESSAGE value="Created models for Object Relational Mapper (ORM)" />
@@ -462,6 +464,7 @@
     <MESSAGE value="slight modification to the Book class models __str__ method" />
     <MESSAGE value="Defined classes for the Book and Contributor models for more detailed columns in Admin interface" />
     <MESSAGE value="Added a logo to the base navigation bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a logo to the base navigation bar" />
+    <MESSAGE value="Created a separate css page for styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a separate css page for styling" />
   </component>
 </project>
