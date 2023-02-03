@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Defined classes for the Book and Contributor models for more detailed columns in Admin interface">
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Modified Reviews app admin.py file for more detailed columns and set an initialed name method in models.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/reviews/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/reviews/books_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/books_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +46,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Valles/Desktop/University/Python/Projects/myDjangoProject/bookr",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Valles/Desktop/University/Python/Projects/myDjangoProject/bookr&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Python&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Valles\Desktop\University\Python\Projects\myDjangoProject\bookr" />
@@ -108,7 +112,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.admin" />
-        <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
   </component>

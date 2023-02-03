@@ -3,6 +3,8 @@ from django.shortcuts import render, get_object_or_404
 from .models import Book, Review
 from .utils import average_rating
 
+def index(request):
+    return render(request, "base.html")
 def book_list(request):
     books = Book.objects.all()
     book_list = []
@@ -45,6 +47,7 @@ def book_detail(request, pk):
             'reviews': None
         }
     return render(request, "reviews/book_detail.html", context)
-def welcome_view(request):
-    message = "<html><h1><em>Welcome to Bookr!</em></h1></html>"
-    return HttpResponse(message)
+
+def book_search(request):
+    search_text = request.GET.get("search", "")
+    return render(request, "reviews/search-results.html", {"search_text": search_text})
