@@ -5,6 +5,7 @@ from .utils import average_rating
 
 def index(request):
     return render(request, "base.html")
+
 def book_list(request):
     books = Book.objects.all()
     book_list = []

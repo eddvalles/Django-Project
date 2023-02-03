@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Modified Reviews app admin.py file for more detailed columns and set an initialed name method in models.py">
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Added a logo to the base navigation bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/reviews/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/book_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/reviews/books_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/books_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/bookr/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/bookr/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/search-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/search-results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookr/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/templates/base.html" afterDir="false" />
     </list>
@@ -58,6 +56,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Valles\Desktop\University\Python\Projects\myDjangoProject\bookr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valles\Desktop\University\Python\Projects\myDjangoProject\bookr\reviews\templates\reviews" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Django Dev Server">
@@ -379,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675127522960</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added a logo to the base navigation bar">
+      <created>1675389952709</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675389952709</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a small database consisting of fields 'title', 'publisher', 'author'" />
     <MESSAGE value="added a file to .gitignore" />
     <MESSAGE value="Created a model for publisher with fields name, website, email" />
     <MESSAGE value="Modified .gitignore to ignore all .txt files with '*.txt'" />
@@ -454,6 +461,7 @@
     <MESSAGE value="Created 3 users" />
     <MESSAGE value="slight modification to the Book class models __str__ method" />
     <MESSAGE value="Defined classes for the Book and Contributor models for more detailed columns in Admin interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined classes for the Book and Contributor models for more detailed columns in Admin interface" />
+    <MESSAGE value="Added a logo to the base navigation bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a logo to the base navigation bar" />
   </component>
 </project>
