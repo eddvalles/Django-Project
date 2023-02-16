@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Created a separate css page for styling">
-      <change beforePath="$PROJECT_DIR$/bookr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/templates/base.html" afterDir="false" />
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Corrected static file path issue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675391296821</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Corrected static file path issue">
+      <created>1675391526599</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1675391526599</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a model for publisher with fields name, website, email" />
     <MESSAGE value="Modified .gitignore to ignore all .txt files with '*.txt'" />
     <MESSAGE value="Created models for Object Relational Mapper (ORM)" />
     <MESSAGE value="Wrote documentation for each field in the Python models" />
@@ -465,6 +471,7 @@
     <MESSAGE value="Defined classes for the Book and Contributor models for more detailed columns in Admin interface" />
     <MESSAGE value="Added a logo to the base navigation bar" />
     <MESSAGE value="Created a separate css page for styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a separate css page for styling" />
+    <MESSAGE value="Corrected static file path issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected static file path issue" />
   </component>
 </project>
