@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Created a search form to look for specific books">
+    <list default="true" id="8f1876ac-6677-40b6-a239-0b83861e1703" name="Changes" comment="Created a form to allow for editing model fields and for creating new entries into the publisher table">
+      <change afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/instance-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookr/reviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/reviews/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/templates/reviews/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/reviews/templates/reviews/form-example.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bookr/reviews/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/reviews/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookr/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676600375394</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Created a form to allow for editing model fields and for creating new entries into the publisher table">
+      <created>1677113639902</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677113639902</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wrote documentation for each field in the Python models" />
     <MESSAGE value="Added __str__ class methods to the models" />
     <MESSAGE value="Updated ERD" />
     <MESSAGE value="Migrated the models into the sqlite database" />
@@ -490,6 +497,7 @@
     <MESSAGE value="Corrected static file path issue" />
     <MESSAGE value="Corrected a bug issue where Reviews link wasn't pointing to the correct url path" />
     <MESSAGE value="Created a search form to look for specific books" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a search form to look for specific books" />
+    <MESSAGE value="Created a form to allow for editing model fields and for creating new entries into the publisher table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a form to allow for editing model fields and for creating new entries into the publisher table" />
   </component>
 </project>
