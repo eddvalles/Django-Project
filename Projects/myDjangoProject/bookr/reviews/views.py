@@ -1,8 +1,11 @@
 from django.http import HttpResponse
-from django.shortcuts import render, get_object_or_404
-from .models import Book, Contributor
+from django.shortcuts import render, get_object_or_404, redirect
+from .models import Book, Contributor, Publisher
 from .utils import average_rating
-from .forms import SearchForm
+from .forms import SearchForm, PublisherForm
+
+# messages, allows us to register a message letting the user know that a Publisher object was edited or created
+from django.contrib import messages
 
 def index(request):
     return render(request, "base.html")
@@ -74,3 +77,52 @@ def book_search(request):
                     books.add(book)
 
     return render(request, "reviews/search-results.html", {"form": form, "search_text": search_text, "books": books})
+
+def publisher_edit(request, pk=None):
+    # If we are given a primary key, retrieve that record from the model as an object
+    if pk is not None:
+        publisher = get_object_or_404(Publisher, pk=pk)
+    # If we are not given a primary key, set an empty publisher record
+    else:
+        publisher = None
+
+    if request.method == "POST":
+        form = PublisherForm(request.POST, instance=publisher)
+        if form.is_valid():
+            updated_publisher = form.save()
+            if publisher is None:
+                messages.success(request, f"Publisher {updated_publisher} was created.")
+            else:
+                messages.success(request, f"Publisher {updated_publisher} was updated.")
+
+            return redirect("publisher_edit", updated_publisher.pk)
+    else:
+        form = PublisherForm(instance=publisher)
+
+    return render(request, 'reviews/form-example.html', {"method": request.method, "form": form})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
