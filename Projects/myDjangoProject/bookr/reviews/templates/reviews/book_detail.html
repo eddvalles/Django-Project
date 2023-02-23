@@ -31,14 +31,10 @@
           <br>
           <span class="text-info">Creator: </span><span>{{ review.creator.username }}</span>
           <br>
+          <a href="{% url 'review_edit' book.pk review.pk %}">Edit Review</a>
         </li>
       {% endfor %}
     </ul>
   {% endif %}
-  <!-- The following is just used to validate the contents of the context passed to this html page
-  <b>Look! I am the last super random line ! The stuff I can print out is context. Take a look:</b><br>
-  <em>{{ book }}</em><br>
-  <em>{{ book_rating }}</em><br>
-  <em>{{ reviews }}</em>
-  -->
+<a class="btn btn-primary" href="{% url 'review_create' book.pk %}">Add Review</a>
 {% endblock %}

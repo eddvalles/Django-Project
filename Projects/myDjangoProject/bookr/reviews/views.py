@@ -1,8 +1,9 @@
 from django.http import HttpResponse
+from django.utils import timezone
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Book, Contributor, Publisher
+from .models import Book, Contributor, Publisher, Review
 from .utils import average_rating
-from .forms import SearchForm, PublisherForm
+from .forms import SearchForm, PublisherForm, ReviewForm
 
 # messages, allows us to register a message letting the user know that a Publisher object was edited or created
 from django.contrib import messages
@@ -101,6 +102,40 @@ def publisher_edit(request, pk=None):
 
     return render(request, 'reviews/instance-form.html',
         {"form": form, "instance": publisher, "model_type": "Publisher"})
+
+def review_edit(request, book_pk, review_pk=None):
+    book = get_object_or_404(Book, pk=book_pk)
+
+    # If the book has a review, retrieve the review for that book (Updating a review)
+    if review_pk is not None:
+        review = get_object_or_404(Review, book_id=book_pk, pk=review_pk)
+    # If the book does not have a review, set review to None (Creating a review)
+    else:
+        review = None
+
+    # POST Branch
+    if request.method == "POST":
+        form = ReviewForm(request.POST, instance=review)
+        if form.is_valid():
+            updated_review = form.save(False)
+            updated_review.book = book
+            if review is None: # If there was no review for the book
+                messages.success(request, f"Review for {book} created.")
+            else: # If you updated a review for the book
+                updated_review.date_edited = timezone.now()
+                messages.success(request, f"Review for {book} updated.")
+                updated_review.save()
+            return redirect("book_detail", book.pk)
+    # Non-POST Branch
+    else:
+        form = ReviewForm(instance=review)
+
+    return render(request, "reviews/instance-form.html",
+                  {"form": form, "instance": review,
+                   "model_type": "Review",
+                   "related_instance": book,
+                   "related_model_type": "Book"})
+
 
 
 
