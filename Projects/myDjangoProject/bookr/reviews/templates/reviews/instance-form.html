@@ -9,6 +9,7 @@
 
 {% block content %}
 <h2>
+    The current form method is: {{ method }}<br>
     {% if instance %}
         Editing {{ model_type }} <em>{{ instance }}</em>
     {% else %}
@@ -26,3 +27,7 @@
     </button>
 </form>
 {% endblock %}
+
+
+
+

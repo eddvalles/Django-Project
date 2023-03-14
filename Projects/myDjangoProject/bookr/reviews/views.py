@@ -101,7 +101,7 @@ def publisher_edit(request, pk=None):
         form = PublisherForm(instance=publisher)
 
     return render(request, 'reviews/instance-form.html',
-        {"form": form, "instance": publisher, "model_type": "Publisher"})
+        {"method": request.method, "form": form, "instance": publisher, "model_type": "Publisher"})
 
 def review_edit(request, book_pk, review_pk=None):
     book = get_object_or_404(Book, pk=book_pk)
@@ -135,6 +135,8 @@ def review_edit(request, book_pk, review_pk=None):
                    "model_type": "Review",
                    "related_instance": book,
                    "related_model_type": "Book"})
+
+
 
 
 
